@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spain Weather Forecast</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+</head>
+<body>
+  <nav>
+    <h1>Spain Weather 🌤️</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="forecast.html">Forecast</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main class="hero">
+    <h2>7-Day Weather Forecast for Spain</h2>
+    <p>Enter a Spanish city to see the upcoming weather.</p>
+    <p class="subtitle">
+  Smooth animations and real-time data for Spanish weather forecasts.
+</p>
+
+
+    <div>
+      <input id="cityInput" placeholder="e.g. Madrid, Barcelona" />
+      <button onclick="searchCity()">Get Forecast</button>
+    </div>
+
+    <div id="map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
