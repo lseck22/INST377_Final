@@ -1,0 +1,25 @@
+{
+  "name": "inst377_final",
+  "version": "1.0.0",
+  "description": "**Group Members:** Leanna Seck & Samantha An **Project:** INST377 Final  Submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lseck22/INST377_Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lseck22/INST377_Final/issues"
+  },
+  "homepage": "https://github.com/lseck22/INST377_Final#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "express": "^5.2.1"
+  }
+}
